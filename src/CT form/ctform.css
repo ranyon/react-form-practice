@@ -1,0 +1,185 @@
+body {
+    background-color: #E3EDFD;
+    font-family: 'Roboto', sans-serif;
+    
+}
+ 
+
+ 
+section {
+       
+    margin-top: 1.4rem;
+   
+}
+
+
+
+
+
+
+.divs {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    border-radius: 7px;
+  
+}
+
+
+
+
+
+.top-div {
+
+    border-top:10px solid #4285F4;
+
+}
+
+.top-div h2 {
+
+  margin-top: 0px;
+  font-weight: bold;
+    
+}
+
+
+h5 {
+    font-weight: bold; 
+    font-size: 1.5rem;
+    
+}
+
+input {
+    border-bottom: 1px solid #E4E4E4;
+    border-top:none;
+    border-left: none;
+    border-right:none ;
+    color:#70757A;
+    outline: none; 
+   
+    
+    
+}
+
+/* remove number spin caret */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.required {
+    color:#D93025;
+    font-weight: bold;
+}
+
+
+button {
+    background-color: #1480EF;
+    color:white;
+    border:none;
+    padding:1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+}
+
+
+
+/* footer stuff */
+
+.a-copy {
+    color:#71767F;
+}
+
+.submit-nd-page {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green-line {
+    height: 9px;
+    width:100%;
+    border-radius: 10px;
+    background-color:#34A853;
+   
+}
+
+.bar-progress {
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.never-submit {
+    color:#71767F;
+    font-size: 1.2rem;
+
+    
+}
+
+.img {
+    width:20%;
+}
+
+.recap {
+    color: #9E9E9E;
+    font-weight: bold;
+}
+
+.recap-div {
+    display:flex;
+      
+}
+
+.recap-div a {
+    color: #9E9E9E;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin: 0.5rem;
+   
+  
+    
+}
+
+.this-content-box a {
+    color:#71767F;
+
+    text-decoration: underline;
+}
+
+.google {
+    color:#9E9E9E;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+   
+
+    section {
+        margin: 1.4rem;
+        padding: 3rem;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    }
+
+    
+
+
+
+
+ }
